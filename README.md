@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Sujay2004-real
 - 👀 I’m interested in Cybersecurity 
-- 🌱 I’m currently preparing for GSoc 2025
+- 🌱 I’m currently preparing for GSoC 2025
 - 💞️ I’m looking to collaborate on Cybersecurity and other coding projects 
 - 📫 How to reach me: @itzmesuj4y on Instagram, right here on Github even (if my time allows me)
 - 😄 Pronouns: he/him

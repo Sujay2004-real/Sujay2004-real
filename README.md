@@ -2,7 +2,7 @@
 - 👀 I’m interested in Cybersecurity 
 - 🌱 I’m currently preparing for GSoC 2025
 - 💞️ I’m looking to collaborate on Cybersecurity and other coding projects 
-- 📫 How to reach me: @itzmesuj4y on Instagram, right here on Github even (if my time allows me)
+- 📫 How to reach me: @itzmesuj4y on Instagram
 - 😄 Pronouns: he/him
 - ⚡ Fun fact: I am a huge cricket and chess fan!
 

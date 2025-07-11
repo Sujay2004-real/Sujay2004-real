@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Sujay2004-real
 - 👀 I’m interested in Cybersecurity 
-- 🌱 I’m currently preparing for GSoC 2025
+- 🌱 I’m currently preparing for bug bounty
 - 💞️ I’m looking to collaborate on Cybersecurity and other coding projects 
 - 📫 How to reach me: @itzmesuj4y on Instagram
 - 😄 Pronouns: he/him

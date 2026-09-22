@@ -1,18 +1,16 @@
 <div align="center">
 
-  <!-- Graphic Banner -->
-  <img src="./cyber_ai_banner.png" alt="Sujay G Banner" width="100%" style="border-radius: 10px; max-height: 300px; object-fit: cover;"/>
-
-  <br/><br/>
+  <!-- Animated Header Wave -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B0F1A,50:0077B5,100:00F3FF&height=200&section=header&text=Sujay%20G&fontColor=FFFFFF&fontSize=60&fontAlignY=38&desc=Cybersecurity%20%26%20AI%20Engineer&descSize=20&descAlignY=60&animation=fadeIn" width="100%"/>
 
   <!-- Dynamic Typing Header -->
   <a href="https://github.com/Sujay2004-real">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00F3FF&center=true&vcenter=true&lines=Hi+%F0%9F%90%8B+I'm+Sujay+G;Cybersecurity+%26+AI+Engineer;Building+Ethical+Hacking+Tools;Developing+RAG+%26+Agentic+Security+Systems" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00F3FF&center=true&vcenter=true&width=600&lines=Hi+%F0%9F%91%8B+I'm+Sujay+G;Cybersecurity+%26+AI+Engineer;Building+AI-Assisted+Red+Teaming+Tools;Developing+RAG+%26+Agentic+Security+Systems" alt="Typing SVG" />
   </a>
 
   <p align="center">
     <b>CS Engineering Student</b> @ <i>East Point College of Engineering & Technology</i><br/>
-    Specializing in <b>Cybersecurity, AI Engineering (RAG/Agentic AI) & Blockchain Technology</b>
+    Specializing in <b>Cybersecurity, AI Engineering (RAG / Agentic AI) & Cloud Security</b>
   </p>
 
   <!-- Status & Tech Badges -->
@@ -22,6 +20,8 @@
     <a href="https://github.com/Sujay2004-real"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
     <img src="https://img.shields.io/badge/Location-Bengaluru%2C%20India-00F3FF?style=for-the-badge&logo=googlemaps&logoColor=black" alt="Location"/>
   </p>
+
+  <img src="https://komarev.com/ghpvc/?username=Sujay2004-real&label=Profile%20Views&color=00f3ff&style=flat-square" alt="Profile Views"/>
 
 </div>
 
@@ -35,13 +35,13 @@ sujay@sec-ai-node:~$ cat about_me.json
   "name": "Sujay G",
   "role": "Cybersecurity & AI Engineer",
   "focus_areas": [
-    "Ethical Hacking Tools",
+    "AI-Assisted Red Teaming & Ethical Hacking Tools",
     "Real-Time Network Anomaly Detection",
     "Agentic AI & Retrieval-Augmented Generation (RAG)",
     "Cloud Security Architecture (Azure)"
   ],
   "current_status": "BE in CSE (IoT, Cybersecurity & Blockchain Technology)",
-  "mission": "Combining AI intelligence with robust network defense to mitigate emerging zero-day threats."
+  "mission": "Combining AI intelligence with robust network defense to mitigate emerging threats."
 }
 ```
 
@@ -53,34 +53,63 @@ sujay@sec-ai-node:~$ cat about_me.json
   <table>
     <tr>
       <td width="50%" valign="top">
-        <h3 align="center">🛡️ Malicious URL Scanner</h3>
+        <h3 align="center"><a href="https://github.com/Sujay2004-real/red-teaming-framework">🎯 AI-Assisted Red Teaming Framework</a></h3>
+        <p align="center">
+          <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+          <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
+          <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        </p>
+        <p>A human-in-the-loop platform for <b>authorized</b> security assessments. Reads a client engagement letter, drafts a scoped assessment plan, and runs each scanner command <b>only after explicit human approval</b>.</p>
+        <ul>
+          <li><b>Fail-closed policy engine:</b> per-tool allowlist enforces scope; nothing unauthorized can run.</li>
+          <li><b>Full engagement lifecycle:</b> scoping → recon → analysis → exploitation → reporting.</li>
+          <li><b>Agentic planning + RAG:</b> AI drafts next steps from observed findings; the AI can never widen authority.</li>
+          <li><b>Client-ready HTML reports</b> with a full command audit trail.</li>
+        </ul>
+      </td>
+      <td width="50%" valign="top">
+        <h3 align="center"><a href="https://github.com/Sujay2004-real/cyberguard-url-scanner">🛡️ CyberGuard URL Scanner</a></h3>
         <p align="center">
           <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
           <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" />
           <img src="https://img.shields.io/badge/VirusTotal-3949AB?style=flat-square&logo=virustotal&logoColor=white" />
           <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" />
         </p>
-        <p>An intelligent web threat detection platform that evaluates domain trustworthiness through multi-stage probing and AI risk synthesis.</p>
+        <p>A decoupled URL threat-analysis engine with a Python/Flask API backend and a lightweight HTML/JS frontend.</p>
         <ul>
-          <li><b>Heuristic Probing:</b> Performs direct HTTP inspections and link structure analysis.</li>
-          <li><b>VirusTotal Engine:</b> Aggregates global multi-scanner telemetry.</li>
-          <li><b>OpenAI AI Analysis:</b> Generates human-readable threat context & mitigation reports.</li>
-          <li>🏆 <i>Featured in Hackverse Hackathon 2026</i></li>
+          <li><b>Heuristic + lexical probing:</b> HTTP inspection and link-structure analysis.</li>
+          <li><b>VirusTotal engine:</b> aggregates multi-scanner telemetry.</li>
+          <li><b>AI risk synthesis:</b> generates human-readable threat context & mitigation notes.</li>
+          <li>🏆 <i>Built for Hackverse Hackathon 2026 (EPCET)</i></li>
         </ul>
       </td>
+    </tr>
+    <tr>
       <td width="50%" valign="top">
-        <h3 align="center">🛰️ Network Anomaly Detection</h3>
+        <h3 align="center"><a href="https://github.com/Sujay2004-real/network-anomaly-detection">🛰️ Network Anomaly Detection</a></h3>
         <p align="center">
           <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
           <img src="https://img.shields.io/badge/Machine--Learning-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" />
-          <img src="https://img.shields.io/badge/Network--Security-00F3FF?style=flat-square&logo=cisco&logoColor=black" />
+          <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" />
         </p>
-        <p>An unsupervised Machine Learning framework for real-time intrusion detection and network behavior monitoring.</p>
+        <p>An unsupervised ML framework for real-time intrusion detection and network behavior monitoring.</p>
         <ul>
-          <li><b>Isolation Forest ML Model:</b> Identifies rare telemetry patterns without labeled attack data.</li>
-          <li><b>Real-Time Packet Inspection:</b> Flags suspicious traffic spikes & unusual ports.</li>
-          <li><b>Zero-Day Threat Coverage:</b> Adapts dynamically to novel attack vectors.</li>
-          <li>⚡ <i>Low latency inference for live stream monitoring</i></li>
+          <li><b>Isolation Forest model:</b> identifies rare telemetry patterns without labeled attack data.</li>
+          <li><b>Traffic inspection:</b> flags suspicious spikes & unusual ports.</li>
+          <li><b>Adapts to novel attack vectors</b> without retraining on known signatures.</li>
+        </ul>
+      </td>
+      <td width="50%" valign="top">
+        <h3 align="center"><a href="https://github.com/Sujay2004-real/Cybersecurity-Internship">🔐 Cybersecurity Internship Projects</a></h3>
+        <p align="center">
+          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+          <img src="https://img.shields.io/badge/Security-00F3FF?style=flat-square&logo=hackthebox&logoColor=black" />
+        </p>
+        <p>A collection of security tooling built during my internship with Codtech IT Solutions.</p>
+        <ul>
+          <li>Hands-on implementations across cryptography, scanning, and security automation.</li>
+          <li>Applied Python for practical defensive tooling.</li>
         </ul>
       </td>
     </tr>
@@ -93,10 +122,10 @@ sujay@sec-ai-node:~$ cat about_me.json
 
 | Domain | Technologies & Frameworks |
 | :--- | :--- |
-| 🛡️ **Cybersecurity & Defense** | Network Troubleshooting, Routing & Switching, IP Subnetting, Cisco Packet Tracer, Linux System Hardening |
+| 🛡️ **Cybersecurity & Defense** | Red Teaming, Policy-Gated Execution, Network Troubleshooting, Routing & Switching, IP Subnetting, Cisco Packet Tracer, Linux Hardening |
 | 🤖 **Artificial Intelligence & ML** | Agentic AI Systems, RAG Architectures, Unsupervised ML (Isolation Forest), Prompt Engineering, Scikit-learn |
-| 💻 **Development & Scripting** | Python (DSA, Security Automation), Flask, HTML5/CSS3, JavaScript, RESTful APIs |
-| ☁️ **Cloud & Infrastructure** | Microsoft Azure Fundamentals (AZ-900), Cloud Security & Privacy, Linux Administration |
+| 💻 **Development & Scripting** | Python, FastAPI, Flask, React, Docker, RESTful APIs, HTML5/CSS3, JavaScript |
+| ☁️ **Cloud & Infrastructure** | Microsoft Azure Fundamentals (AZ-900), Cloud Security & Privacy, Linux Administration, CI/CD |
 
 ---
 
@@ -105,12 +134,12 @@ sujay@sec-ai-node:~$ cat about_me.json
 - 🥇 **Cisco NetAcad:** *Introduction to Cybersecurity*
 - 🔐 **Infosys Springboard:** *Computer Network & Internet Security*
 - ⚡ **Infosys Springboard:** *Data Structures and Algorithms*
-- 🏆 **Hackverse Hackathon 2026:** *Certificate of Participation (Dept of AI/ML, EPCET)* — Implemented Full-Stack Malicious URL Scanner
+- 🏆 **Hackverse Hackathon 2026 (Dept of AI/ML, EPCET):** *Certificate of Participation* — built a full-stack Malicious URL Scanner
 - 🎖️ **Leadership:** *Student Coordinator (EPCET)* | *Student of the Year (KGES)*
 
 ---
 
-## 📊 GitHub Analytics & Telemetry
+## 📊 GitHub Analytics
 
 <div align="center">
   <img height="165em" src="https://github-readme-stats.vercel.app/api?username=Sujay2004-real&show_icons=true&theme=cyberpunk&hide_border=true&count_private=true" alt="Sujay's GitHub Stats" />
@@ -120,12 +149,13 @@ sujay@sec-ai-node:~$ cat about_me.json
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Sujay2004-real&theme=cyberpunk&hide_border=true" alt="GitHub Streak" />
+  <!-- Animated contribution snake (see setup note below) -->
+  <img src="https://raw.githubusercontent.com/Sujay2004-real/Sujay2004-real/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" width="100%"/>
 </div>
 
 ---
 
 <div align="center">
   <p><i>"Securing tomorrow's digital infrastructure with intelligent, AI-driven cyber defense."</i></p>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00f3ff&height=60&section=footer" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F3FF,100:0077B5&height=100&section=footer" width="100%"/>
 </div>
